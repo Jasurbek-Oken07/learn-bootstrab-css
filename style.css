@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(./78BvXzD.jpg);
+    background-size: cover;
+
+}
+
+.column {
+    float: left;
+    text-align: center;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.p1 {
+  font-size: 16px;
+}
+
+
+/* for mobile devices */
+@media (max-width: 767px) {
+  .column {
+    width: 100%;
+  }
+
+  .header {
+    background-image: url(https://mobimg.b-cdn.net/v3/fetch/44/44b208e04a532e7077071d32baebf666.jpeg);
+  }
+
+  .p1 {
+    font-size: 20px;
+  }
+}
+
+/* for table devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* desktop */
+
+@media (min-width: 1024px) {
+  .column {
+    width: 25%;
+  }
+}
